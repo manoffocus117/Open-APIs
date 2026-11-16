@@ -7,7 +7,12 @@ const get_laptops = async (req, res) => {
 
             const result = await laptops_collection.find().toArray();
             res.send(result);
-      } catch (error) {}
+      } catch (error) {
+            res.status(500).send({
+                  message: "failed to get laptops",
+                  error: error.message,
+            });
+      }
 };
 
 export default get_laptops;
