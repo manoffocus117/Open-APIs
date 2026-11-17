@@ -6,11 +6,12 @@ Whether you're practicing React, Next.js, or other web technologies, you can use
 
 ## 🌐 Live APIs
 
-| API                | Description                               | Endpoint                                                                  |
-| ------------------ | ----------------------------------------- | ------------------------------------------------------------------------- |
-| 🍔 Foods API       | Food items and related information        | [Explore API](https://manoffocus-open-apis.vercel.app/api/v1/foods)       |
-| 💻 Laptops API     | Laptop specifications and information     | [Explore API](https://manoffocus-open-apis.vercel.app/api/v1/laptops)     |
-| 📱 Smartphones API | Smartphone specifications and information | [Explore API](https://manoffocus-open-apis.vercel.app/api/v1/smartphones) |
+| API                | Description                                | Endpoint                                                                  |
+| ------------------ | ------------------------------------------ | ------------------------------------------------------------------------- |
+| 🍔 Foods API       | Food items and related information         | [Explore API](https://manoffocus-open-apis.vercel.app/api/v1/foods)       |
+| 💻 Laptops API     | Laptop specifications and information      | [Explore API](https://manoffocus-open-apis.vercel.app/api/v1/laptops)     |
+| 📱 Smartphones API | Smartphone specifications and information  | [Explore API](https://manoffocus-open-apis.vercel.app/api/v1/smartphones) |
+| 🛋️ Furniture's API | Furniture's specifications and information | [Explore API](https://manoffocus-open-apis.vercel.app/api/v1/furniture)   |
 
 ## ✨ Features
 
@@ -129,6 +130,18 @@ Full URL:
 
 ```text
 https://manoffocus-open-apis.vercel.app/api/v1/smartphones
+```
+
+### Furniture's API
+
+```http
+GET /api/v1/furniture
+```
+
+Full URL:
+
+```text
+https://manoffocus-open-apis.vercel.app/api/v1/furniture
 ```
 
 ## 💡 Use Cases
